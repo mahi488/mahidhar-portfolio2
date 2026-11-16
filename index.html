@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mahidhar Reddy — Software Development and Cybersecurity portfolio. Explore projects, skills, education and contact information.">
+  <meta name="theme-color" content="#080808">
+  <title>Mahidhar Reddy | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <main>
+    <!-- Opening screen -->
+    <section class="intro-screen" id="intro">
+      <div class="intro-top"><span class="brand-mark">MR<span>.</span></span><span class="intro-label">PERSONAL PORTFOLIO / 2026</span></div>
+      <div class="intro-content">
+        <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR OPPORTUNITIES</p>
+        <h1>MAHIDHAR<br><span>REDDY.</span></h1>
+        <p class="intro-role">SOFTWARE DEVELOPMENT <i>×</i> CYBERSECURITY</p>
+        <p class="intro-copy">Building useful experiences. Exploring secure systems.<br>Turning curiosity into code.</p>
+        <button class="button button-primary" id="enter-button">Explore my portfolio <span aria-hidden="true">↗</span></button>
+      </div>
+      <div class="intro-footer"><span>SCROLL LESS. DISCOVER MORE.</span><span>CHENNAI, INDIA</span></div>
+    </section>
+
+    <!-- Profile selection -->
+    <section class="profiles-screen hidden" id="profiles" aria-labelledby="profiles-title">
+      <div class="profile-brand">MR<span>.</span></div>
+      <p class="eyebrow centered">A LITTLE DIFFERENT PERSPECTIVE</p>
+      <h2 id="profiles-title">Who's exploring?</h2>
+      <p class="section-subtitle">Choose a profile to explore the work that matters to you.</p>
+      <div class="profile-grid">
+        <button class="profile-card" data-profile="overview">
+          <span class="profile-avatar avatar-red">MR</span><strong>Mahidhar</strong><small>THE FULL STORY</small>
+        </button>
+        <button class="profile-card" data-profile="developer">
+          <span class="profile-avatar avatar-blue">&lt;/&gt;</span><strong>Developer</strong><small>BUILD · CREATE · SHIP</small>
+        </button>
+        <button class="profile-card" data-profile="security">
+          <span class="profile-avatar avatar-purple">⌘</span><strong>Security</strong><small>THINK · TEST · PROTECT</small>
+        </button>
+      </div>
+      <button class="text-button" id="back-to-intro">← Back to intro</button>
+    </section>
+
+    <!-- Main portfolio -->
+    <section class="portfolio hidden" id="portfolio">
+      <header class="site-header">
+        <a class="wordmark" href="#home" aria-label="Mahidhar Reddy home">MR<span>.</span></a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+        <nav class="main-nav" id="main-nav">
+          <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#journey">Journey</a><a href="#contact">Contact</a>
+        </nav>
+        <a class="header-cta" href="#contact">Let's connect <span>↗</span></a>
+      </header>
+
+      <section class="hero section-wrap" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> SOFTWARE DEVELOPMENT & CYBERSECURITY</p>
+          <h2>Curious mind.<br><span>Secure thinking.</span><br>Real-world code.</h2>
+          <p class="hero-description">I'm Mahidhar Reddy, a Computer Science student interested in building software and understanding how to make digital systems more secure.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore projects <span>↘</span></a>
+            <a class="button button-outline" href="#about">More about me</a>
+          </div>
+          <div class="hero-meta"><span>BASED IN <b>CHENNAI, INDIA</b></span><span>FOCUS <b>DEV + SECURITY</b></span></div>
+        </div>
+        <div class="hero-visual">
+          <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+          <div class="hero-photo-frame">
+            <img src="assets/images/profile.jpg" alt="Replace this placeholder with Mahidhar's photograph" class="hero-photo">
+            <div class="photo-caption"><span>01 / THE PERSON</span><b>MAHIDHAR REDDY</b></div>
+          </div>
+          <div class="floating-tag tag-top">BUILD WITH PURPOSE <span>✳</span></div>
+          <div class="floating-tag tag-bottom"><span class="status-dot"></span> ALWAYS LEARNING</div>
+        </div>
+        <a class="scroll-cue" href="#about">SCROLL TO EXPLORE <span>↓</span></a>
+      </section>
+
+      <section class="about section-wrap section-block" id="about">
+        <div class="section-heading"><p class="eyebrow">01 / THE PERSON</p><h2>A little about <span>me.</span></h2></div>
+        <div class="about-grid">
+          <div class="about-lead"><p class="large-copy">I enjoy solving problems, learning how technology works, and creating things that are useful.</p><p>My interests sit at the intersection of software development and cybersecurity. I'm working on strengthening my fundamentals through hands-on projects and continuous learning.</p></div>
+          <div class="info-panel"><div><small>EDUCATION</small><strong>B.Tech · Computer Science &amp; Engineering (Cyber Security) &amp; Engineering (Cyber Security)</strong><p>SRM Institute of Science and Technology</p><p>Ramapuram Campus, Chennai · Expected Graduation: 2027</p></div><div><small>INTEREST AREAS</small><strong>Software · Cybersecurity</strong></div><div><small>LOCATION</small><strong>Chennai, India</strong></div><div><small>CURRENT MODE</small><strong>Learning by building</strong></div></div>
+        </div>
+      </section>
+
+      <section class="skills section-wrap section-block" id="skills">
+        <div class="section-heading"><p class="eyebrow">02 / TOOLKIT</p><h2>Skills in <span>progress.</span></h2><p class="section-subtitle">A working snapshot of the technologies and areas I'm developing. This list can be updated as your experience grows.</p></div>
+        <div class="skill-groups">
+          <article class="skill-card"><span class="skill-icon">01</span><h3>Programming</h3><div class="chip-list"><span>C</span><span>Java</span><span>Python</span></div></article>
+          <article class="skill-card"><span class="skill-icon">02</span><h3>Web & Backend</h3><div class="chip-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Spring Boot</span></div></article>
+          <article class="skill-card"><span class="skill-icon">03</span><h3>Security</h3><div class="chip-list"><span>Vulnerability Scanning</span><span>Data Protection</span><span>Security Fundamentals</span></div></article>
+          <article class="skill-card"><span class="skill-icon">04</span><h3>Tools & Data</h3><div class="chip-list"><span>GitHub</span><span>PostgreSQL</span><span>VS Code</span></div></article>
+        </div>
+      </section>
+
+      <section class="projects section-wrap section-block" id="projects">
+        <div class="section-heading"><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects worth <span>exploring.</span></h2><p class="section-subtitle">A selection of projects to showcase practical learning. Add repository links and accurate project details before publishing.</p></div>
+        <div class="project-grid">
+          <article class="project-card project-featured"><div class="project-art art-security"><span>01</span><b>DATA<br>GUARD</b><i>◈</i></div><div class="project-info"><p class="project-type">CYBERSECURITY / DATA PROTECTION</p><h3>Data Leakage Prevention System</h3><p>A project focused on identifying and helping prevent sensitive data from being exposed. Add your implementation details, stack and demo.</p><div class="project-bottom"><span>Security · Data protection</span><a href="https://github.com/mahi488" target="_blank" rel="noreferrer">GitHub ↗</a></div></div></article>
+          <article class="project-card"><div class="project-art art-scanner"><span>02</span><b>VULN<br>SCAN</b><i>⌁</i></div><div class="project-info"><p class="project-type">CYBERSECURITY / TOOLING</p><h3>Custom Vulnerability Scanner</h3><p>A hands-on security project exploring vulnerability checks. Add supported checks, technologies and usage instructions.</p><div class="project-bottom"><span>Security · Scanning</span><a href="https://github.com/mahi488" target="_blank" rel="noreferrer">GitHub ↗</a></div></div></article>
+          <article class="project-card"><div class="project-art art-backend"><span>03</span><b>SHOP<br>BACKEND</b><i>{ }</i></div><div class="project-info"><p class="project-type">SOFTWARE / BACKEND</p><h3>Spring Boot Shop Backend</h3><p>A backend learning project built with Java and Spring Boot. Add API endpoints, database design and features you completed.</p><div class="project-bottom"><span>Java · Spring Boot · PostgreSQL</span><a href="https://github.com/mahi488" target="_blank" rel="noreferrer">GitHub ↗</a></div></div></article>
+        </div>
+      </section>
+
+      <section class="journey section-wrap section-block" id="journey">
+        <div class="section-heading"><p class="eyebrow">04 / THE JOURNEY</p><h2>Learning, one step <span>at a time.</span></h2></div>
+        <div class="timeline"><div class="timeline-item"><span class="timeline-dot"></span><small>EDUCATION</small><h3>B.Tech – Computer Science</h3><p>Building foundations in computing, programming and cybersecurity. Add your college, dates and expected graduation year.</p></div><div class="timeline-item"><span class="timeline-dot"></span><small>HACKATHON</small><h3>Team RAGnarok – Databricks & Accenture Hackathon</h3><p>Add your team's challenge, your contribution, technologies used and outcome.</p></div><div class="timeline-item"><span class="timeline-dot"></span><small>ONGOING</small><h3>Projects & continuous learning</h3><p>Developing practical skills through software and security-focused projects.</p></div></div>
+      </section>
+
+      <section class="contact section-wrap section-block" id="contact">
+        <div class="contact-panel"><p class="eyebrow">05 / START A CONVERSATION</p><h2>Have an opportunity?<br><span>Let's connect.</span></h2><p>I'm open to conversations about software development, cybersecurity, projects and entry-level opportunities.</p><div class="contact-actions"><a class="button button-primary" href="mailto:YOUR_EMAIL@example.com">Email me ↗</a><a class="button button-outline" href="https://www.linkedin.com/in/chinthala-mahidhar-reddy-843b372a2/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a class="button button-outline" href="https://github.com/mahi488" target="_blank" rel="noreferrer">GitHub ↗</a></div><small class="edit-note">Before publishing: replace the email placeholder and verify all profile links.</small></div>
+      </section>
+
+      <footer class="site-footer"><a class="wordmark" href="#home">MR<span>.</span></a><p>Designed with curiosity. Built with code.</p><span>© <span id="year"></span> MAHIDHAR REDDY</span></footer>
+    </section>
+  </main>
+  <button class="back-top" id="back-top" aria-label="Back to top">↑</button>
+</body>
+</html>
